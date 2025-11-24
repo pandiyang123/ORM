@@ -24,7 +24,8 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-```models.py
+~~~
+models.py
 
 from django.db import models 
 from django.contrib import admin
@@ -41,8 +42,8 @@ admin.py
 
 from django.contrib import admin
 from .models import amazon_DB,amazon_DBAdmin
-admin.site.register(amazon_DB,amazon_DBAdmin)```
-
+admin.site.register(amazon_DB,amazon_DBAdmin)
+~~~
 reference no: 25014651
 ## OUTPUT
 <img width="1915" height="1025" alt="Screenshot 2025-11-20 133216" src="https://github.com/user-attachments/assets/a28880af-0313-42b8-9535-2a32c02ec26f" />
